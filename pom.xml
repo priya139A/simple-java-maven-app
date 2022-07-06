@@ -64,6 +64,15 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+  <groupId>org.apache.tomcat.maven</groupId>
+  <artifactId>tomcat10-maven-plugin</artifactId>
+  <version>10.0</version>
+  <configuration>
+    <url>http://localhost:8080/manager/text</url>
+    <path>/rps</path>
+  </configuration>
+</plugin>
     </plugins>
   </build>
 </project>
